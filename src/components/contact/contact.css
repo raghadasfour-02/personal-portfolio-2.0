@@ -55,3 +55,15 @@ input, textarea {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1024px){
+    .container.container__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    } 
+}
+
+@media screen and (max-width: 600px){
+    .container.container__container {
+        width: var(--container-with-sm);
+    } 
+}
