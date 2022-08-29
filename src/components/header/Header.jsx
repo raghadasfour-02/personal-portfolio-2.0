@@ -17,7 +17,7 @@ const Header = () => {
         <h4 className='text-light'>Welcome to my Portfolio.</h4>
         <HeaderSocials/>
 
-        <div className='react-floater-animated'>
+        {/* <div className='react-floater-animated'>
           <img id="aws" src={aws} alt="aws"/>
           <img id="cpp" src={cpp} alt="cpp"/>
           <img id="javascript" src={javascript} alt="javascript"/>
@@ -26,7 +26,7 @@ const Header = () => {
         <div className='react-floater-animated-opposite'>
           <img id="python" src={python} alt="python"/>
           <img id="django" src={django} alt="django"/>
-        </div>
+        </div> */}
 
         <div className='programmer_image'>
           <img src={Programmer} alt="PROGRAMMER" />
