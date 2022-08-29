@@ -65,6 +65,8 @@ input, textarea {
 
 @media screen and (max-width: 600px){
     .container.container__container {
-        width: var(--container-with-sm);
+        max-width: var(--container-with-sm);
+        gap: 0rem;
+        overflow: scroll;
     } 
 }
