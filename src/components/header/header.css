@@ -72,3 +72,27 @@ font-weight: 200;
 font-size: 0.9rem;
 color: #64ffda;
 }
+
+/* PROGRAMMER IMAGE */
+.programmer_image {
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
+  left: calc(50% - 11rem);
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.react-floater-animated {
+  animation: floating 3s ease infinite;
+  will-change: transform;
+}
