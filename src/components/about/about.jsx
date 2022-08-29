@@ -36,8 +36,7 @@ const About = () => {
             </article>
             <article className='about__card'>
               <h5>Philosophy</h5>
-              <small>Novels, Autobiographies <br /> 
-              International Baccalaureate Diploma (42/45 points)
+              <small>Novels, Autobiographies
               </small>
             </article>
           </div>
