@@ -1,6 +1,7 @@
 import React from 'react'
 import './experience.css'
 import {AiOutlineArrowRight} from 'react-icons/ai'
+import CarouselApp from './ProjectsCarousel'
 
 const Experience = () => {
   return (
@@ -39,46 +40,8 @@ const Experience = () => {
             </article>
           </div>
         </div>
-
-        <div className="experience__projects">
-          <h3>Projects</h3>
-          <div className='experience__content'>
-            <article className='experience__details'>
-              < AiOutlineArrowRight className='experience__details-icon' />
-              <div>
-              <h4>Personal Portfolio</h4>
-              <h5>React</h5>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              < AiOutlineArrowRight className='experience__details-icon' />
-              <div>
-              <h4>Movie Critic Blog</h4>
-              <h5>Python, Django</h5>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              < AiOutlineArrowRight className='experience__details-icon' />
-              <div>
-              <h4>News Aggregator</h4>
-              <h5>Python, Django</h5>
-              </div>
-            </article>
-
-            <article className='experience__details'>
-              < AiOutlineArrowRight className='experience__details-icon' />
-              <div>
-              <h4>Food Suggester</h4>
-              <h5>React, Javascript</h5>
-              </div>
-            </article>
-
-          </div>
-        </div>
-
       </div>
+      < CarouselApp />
     </section>
   )
 }
