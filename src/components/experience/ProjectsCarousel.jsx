@@ -1,7 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./ProjectItem";
+import {FoodImage} from "../../assets/food.png"
 import "./experience.css";
 
 const breakPoints = [
@@ -13,21 +13,21 @@ const breakPoints = [
 
 function CarouselApp() {
   return (
-    <>
+    <div className='carousel_container'>
     <h3 style={{ textAlign: "center" }}>Projects</h3>
       <div className="App">
+
         <Carousel breakPoints={breakPoints}>
-          <Item>One</Item>
-          <Item>Two</Item>
-          <Item>Three</Item>
-          <Item>Four</Item>
-          <Item>Five</Item>
-          <Item>Six</Item>
-          <Item>Seven</Item>
-          <Item>Eight</Item>
+          <Item animated className="food_suggester_project">
+            <h4 style={{ color: "black", fontWeight:"bold"}}>FOOD SUGGESTER</h4>
+          </Item>
+
+          <Item animated className="news_aggregator_project">
+            <h4 style={{ color: "black", fontWeight:"bold"}}>NEWS AGGREGATOR</h4>
+          </Item>
         </Carousel>
       </div>
-    </>
+    </div>
   );
 }
 

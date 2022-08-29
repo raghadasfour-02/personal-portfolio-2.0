@@ -6,10 +6,18 @@
 }
 
 .experience__container > div {
-    background: var(--color-primary-variant);
     padding: 2rem 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.food_suggester_project {
+    background-image: url("../../assets/food.png") ;
+}
+
+.news_aggregator_project {
+    background-image: url("../../assets/news.jpeg") ;
 }
 
 .experience__container > div:hover {
@@ -71,4 +79,8 @@
         width: 100%;
         padding: 2rem 1rem;
     }
+}
+
+.carousel_container {
+    padding: 4%;
 }
