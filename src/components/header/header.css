@@ -78,9 +78,39 @@ color: #64ffda;
   width: 22rem;
   height: 30rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 16rem);
 }
 
+/* FLOATING IMAGES POSITION */
+#aws {
+  position: absolute;
+  left: calc(50% + 35rem);
+}
+
+#cpp {
+  position: absolute;
+  left: calc(50% + 16rem);
+}
+
+#python {
+  position: absolute;
+  left: calc(50% + 25rem);
+  bottom: calc(70% - 0.1rem);
+}
+
+#django {
+  position: absolute;
+  left: calc(50% + 28rem);
+  top: calc(2% + 3rem);
+}
+
+#javascript {
+  position: absolute;
+  left: calc(50% + 38rem);
+  top: calc(2% + 8rem);
+}
+
+/* FLOATING IMAGES */
 @keyframes floating {
   0% {
     transform: translateY(0px);
@@ -93,6 +123,26 @@ color: #64ffda;
   }
 }
 .react-floater-animated {
-  animation: floating 3s ease infinite;
+  animation: floating 2s ease infinite;
   will-change: transform;
+  width: 100px;
+  height: 50px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+.react-floater-animated-opposite {
+  animation: floating 2s ease infinite;
+  will-change: transform;
+  width: 100px;
+  height: 50px;
 }
