@@ -11,34 +11,28 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__work">
-          <h3>Work Experience</h3>
-          <div className='experience__content'>
+          <h4>DoctorCare (May 2022 - Aug 2022)</h4>
             <article className='experience__details'>
               < AiOutlineArrowRight className='experience__details-icon' />
-              <div>
               <h4>Software Developer</h4>
-              <small className='text-light'>DoctorCare</small>
-              <h5>Python, Django, SQL, AWS</h5>
-              </div>
+              <h4 style={{color: "var(--color-neon-green)"}}>Python, Django, SQL, AWS</h4>
             </article>
 
+          <br></br>
+          <h4>DoctorCare (Sept 2021 - Dec 2021)</h4>
             <article className='experience__details'>
               < AiOutlineArrowRight className='experience__details-icon' />
-              <div>
               <h4>Software Developer</h4>
-              <small className='text-light'>DoctorCare</small>
-              <h5>Python, Django, SQL</h5>
-              </div>
+              <h4 style={{color: "var(--color-neon-green)"}}>Python, Django, SQL</h4>
             </article>
-
+          
+          <br></br>
+          <h4>Netact Inc (Jan 2021 - Apr 2021)</h4>
             <article className='experience__details'>
               < AiOutlineArrowRight className='experience__details-icon' />
-              <div>
               <h4>Web Developer</h4>
-              <small className='text-light'>Netact Inc.</small>
-              </div>
+              <h4 style={{color: "var(--color-neon-green)"}}>Javascript, HTML, CSS</h4>
             </article>
-          </div>
         </div>
       </div>
       < CarouselApp />

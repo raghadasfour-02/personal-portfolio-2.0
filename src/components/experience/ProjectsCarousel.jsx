@@ -14,7 +14,7 @@ const breakPoints = [
 function CarouselApp() {
   return (
     <div className='carousel_container'>
-    <h3 style={{ textAlign: "center" }}>Projects</h3>
+    <h1 style={{ textAlign: "center" }}>PROJECTS</h1>
       <div className="App">
 
         <Carousel breakPoints={breakPoints}>
