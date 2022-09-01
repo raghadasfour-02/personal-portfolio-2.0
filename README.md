@@ -1,5 +1,6 @@
 # Raghad's Personal Portfolio
 A portfolio to broadcast my work experience, projects, and a little more about me. 
+
 ---
 ### Inspiration
 Initially, I created my personal portfolio using mostly HTML/CSS (Boostrap). To learn React, I decided to challenge myself to replicate my pre-existing site (with additional improvements) using React.
