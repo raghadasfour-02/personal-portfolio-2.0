@@ -9,6 +9,6 @@ Initially, I created my personal portfolio using mostly HTML/CSS (Boostrap). To 
 - React Virtual DOM
 - React's State and Lifecycle
 - React Hooks
-### What did I learn? [ABOUT SOFTWARE]
+### What did I learn? [ABOUT WRITING SOFTWARE]
 - React's reusable components make the design process significantly more efficient and allows for deduplication of code fragments (often an issue I ran into with my previous predominantly HTML/CSS site)
 - The React Component Lifecycle (Mounting, Updating, Unmounting)
