@@ -20,6 +20,14 @@
     background-image: url("../../assets/news.jpeg") ;
 }
 
+.resume_parser_project {
+    background-image: url("../../assets/binary.jpeg") ;
+}
+
+.go_shelf_project {
+    background-image: url("../../assets/shelf.jpeg") ;
+}
+
 .experience__container > div:hover {
     background: transparent;
     border-color: var(--color-primary-variant);

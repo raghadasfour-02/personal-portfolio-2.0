@@ -25,6 +25,14 @@ function CarouselApp() {
           <Item animated className="news_aggregator_project">
             <h4 style={{ color: "black", fontWeight:"bold"}}>NEWS AGGREGATOR</h4>
           </Item>
+
+          <Item animated className="resume_parser_project">
+            <h4 style={{ color: "black", fontWeight:"bold"}}>RESUME PARSER</h4>
+          </Item>
+
+          <Item animated className="go_shelf_project">
+            <h4 style={{ color: "black", fontWeight:"bold"}}>GO SHELF</h4>
+          </Item>
         </Carousel>
       </div>
     </div>
