@@ -24,7 +24,7 @@ const About = () => {
               </small>
             </article>
 
-            <h4>INTERSTS</h4>
+            <h4>INTERESTS</h4>
             <article className='about__card'>
               <h5>Reading</h5>
               <small>Novels, Autobiographies <br /> 
@@ -36,7 +36,9 @@ const About = () => {
             </article>
             <article className='about__card'>
               <h5>Philosophy</h5>
-              <small>Novels, Autobiographies
+              <small>Either/Or by Søren Kierkegaard  <br />
+              The Denial Of Death by Ernest Becker  <br />
+              Critique of Pure Reason by Immanuel Kant
               </small>
             </article>
           </div>
