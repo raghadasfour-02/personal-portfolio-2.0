@@ -6,8 +6,8 @@ import Anime from 'react-anime';
 const Header = () => {
   return (
     <header>
+      <HeaderSocials/>
       <div className="container header__container">
-        <HeaderSocials/>
         <div className='centered_header'>
         <Anime opacity={[0, 1]} translateY={'-1em'} easing={'easeInBack'} delay={100}>
           <h5 className='medium_text'>Hello!</h5>
