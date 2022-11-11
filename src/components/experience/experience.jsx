@@ -1,7 +1,6 @@
 import React from 'react'
 import './experience.css'
 import {AiOutlineArrowRight} from 'react-icons/ai'
-import CarouselApp from './ProjectsCarousel'
 
 const Experience = () => {
   return (
@@ -35,7 +34,6 @@ const Experience = () => {
             </article>
         </div>
       </div>
-      < CarouselApp />
     </section>
   )
 }
