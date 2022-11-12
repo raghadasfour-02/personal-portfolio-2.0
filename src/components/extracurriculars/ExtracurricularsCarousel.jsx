@@ -15,11 +15,11 @@ function ExtracurricularsCarousel() {
     <div className='carousel_container'>
         <Carousel breakPoints={breakPoints}>
           <Item>
-            <h4 >FOOD SUGGESTER</h4>
+            <small>FOOD SUGGESTER</small>
           </Item>
 
           <Item>
-            <h4 >FOOD SUGGESTER</h4>
+            <h4>FOOD SUGGESTER</h4>
           </Item>
         </Carousel>
       </div>

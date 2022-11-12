@@ -14,7 +14,8 @@ const About = () => {
             <article className='about__card'>
               <h5>University of Waterloo</h5>
               <small>Systems Design Engineering (2020 - 2025) <br /> 
-              Note-worthy Courses: SYDE 223 (Data Structures and Algorithms), SYDE 121 (Digital Computation)
+              Note-worthy Courses: SYDE 223 (Data Structures and Algorithms), SYDE 121 (Digital Computation), <br></br>
+              SYDE 252 (Linear Systems and Signals), SYDE 292 (Circuits, Instruments, and Measurements)
               </small>
             </article>
             <article className='about__card'>
