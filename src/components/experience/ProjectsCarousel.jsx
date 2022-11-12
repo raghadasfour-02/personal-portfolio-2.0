@@ -1,7 +1,6 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 import Item from "./ProjectItem";
-import {FoodImage} from "../../assets/food.png"
 import "./experience.css";
 
 const breakPoints = [
