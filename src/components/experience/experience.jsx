@@ -1,6 +1,5 @@
 import React from 'react'
 import './experience.css'
-import {AiOutlineArrowRight} from 'react-icons/ai'
 
 const Experience = () => {
   return (
