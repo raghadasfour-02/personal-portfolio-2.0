@@ -35,7 +35,7 @@ const Experience = () => {
 
             <h4>TRILLIUM HEALTH PARTNERS</h4>
             <article className='about__card'>
-              <h5>Web Developer</h5>
+              <h5>Software Engineer</h5>
               <small>Jan 2021 - Apr 2021 <br /> 
               Tools: PHP, Javascript, MySQL
               </small>
