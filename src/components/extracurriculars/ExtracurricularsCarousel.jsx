@@ -19,6 +19,10 @@ function ExtracurricularsCarousel() {
         <Carousel breakPoints={breakPoints}>
           <Item>
             <small>Quantum Mechanics Talk</small>
+            <small>
+            I got the privilege of giving a TED-ed Talk about quantum mechanics. I chose to focus this talk on double slit experiment to spark an interest in the audience  about the elegance of the world of quantum mechanics. 
+            As said by one of my favourite physicists, Richard Feynman, the double slit experiment captures the entire mystery of quantum mechanics and impressively demonstrates the wave nature of light and the phenomenon of interference. Why does this matter you may ask? Quantum was initially developed to provide a better explanation and description of the atom, hence, by exploring the behaviour of atoms we are learning more about the fundamental base unit of our world. Atoms make up everything. So by delving into the quantum world, we come to understand how the world around us operates. 
+            </small>
             <img src={quantum_mechanics_talk}></img>
           </Item>
 
