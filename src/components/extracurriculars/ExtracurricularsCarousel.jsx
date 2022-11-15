@@ -28,11 +28,18 @@ function ExtracurricularsCarousel() {
 
           <Item>
             <h4>Hosting the Largest Student-run Conference in Canada</h4>
+            <small>
+            I got the privilege of running the largest student run conference in Canada as part of the Glenforest STEM team.
+            We hosted the Xplore STEM conference 2018 to encourage and expose students to the educational and career pathways in the STEM fields. The Xplore STEM Conference invited students to explore and develop a love for the Science, Engineering, Technology, and Math (STEM) fields. Featuring a multitude of speakers, workshops, booths, and activities, students will be exposed to the limitless opportunities the STEM fields have to office.
+            </small>
             <img src={stem_photo}></img>
           </Item>
 
           <Item>
             <h4>My Love for the Theatrical Arts</h4>
+            <small>
+            Outside of engineering, I’m a thespian at heart. In Spring of 2022, I got the privilege of playing ‘Alia’, a lead role as part of _Castaway_. This initiative was hosted by Engplay, an engineering-run play at the University of Waterloo. 
+            </small>
             <img src={thespain}></img>
           </Item>
         </Carousel>
