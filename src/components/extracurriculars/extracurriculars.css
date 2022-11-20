@@ -1,3 +1,8 @@
 .quantum_mechanics_talk {
     border-radius: 8px;
   }
+
+  /* hide disabled buttons */
+.rec.rec-arrow:disabled {
+  visibility: hidden;
+}
