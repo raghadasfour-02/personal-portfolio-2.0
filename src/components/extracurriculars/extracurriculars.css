@@ -2,6 +2,17 @@
     border-radius: 8px;
   }
 
+  /* square buttons */
+.rec.rec-arrow {
+  border-radius: 0;
+  background-color: #a8b2d1;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+  border-radius: 50%;
+  background-color: #CCD6F6;
+}
+
   /* hide disabled buttons */
 .rec.rec-arrow:disabled {
   visibility: hidden;
