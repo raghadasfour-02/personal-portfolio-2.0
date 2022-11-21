@@ -4,10 +4,9 @@ export default styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
-  padding: 10%;
+  height: 500px;
+  padding: 1%;
+  padding-left: 5%;
   width: 100%;
   background-color: #0a192f;
-  color: #fff;
-  margin: 0 15px;
 `;

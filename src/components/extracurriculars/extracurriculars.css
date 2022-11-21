@@ -1,7 +1,3 @@
-.quantum_mechanics_talk {
-    border-radius: 8px;
-  }
-
   /* square buttons */
 .rec.rec-arrow {
   border-radius: 0;
@@ -10,7 +6,6 @@
 .rec {
   padding: 0;
   margin: 0;
-  background-color: #a8b2d1;
 }
 .rec.rec-carousel-wrapper {
   padding: 0;
