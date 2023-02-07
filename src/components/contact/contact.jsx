@@ -29,7 +29,7 @@ const Contact = () => {
           <article className='contact__option'>
             <AiFillPhone className='contact__option__icon'/>
             <h4>Phone Number</h4>
-            <h5>+1(647)809-9667</h5>
+            <h5>+1(647) 809-9667</h5>
           </article>
         </div>
 

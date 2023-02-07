@@ -29,7 +29,7 @@ const Experience = () => {
             <article className='about__card'>
               <h5>Web Developer</h5>
               <small>Jan 2021 - Apr 2021 <br /> 
-              Tools: Javascript, HTML, CSS
+              Tools: Javascript, React
               </small>
             </article>
 
